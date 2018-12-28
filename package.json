@@ -1,0 +1,26 @@
+{
+  "name": "movie-trailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waixi00008/movie-trailer.git"
+  },
+  "keywords": [
+    "movie"
+  ],
+  "author": "xiaobing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waixi00008/movie-trailer/issues"
+  },
+  "homepage": "https://github.com/Waixi00008/movie-trailer#readme",
+  "dependencies": {
+    "koa": "^2.6.2"
+  }
+}
