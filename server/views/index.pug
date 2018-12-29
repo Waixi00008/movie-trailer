@@ -1,0 +1,13 @@
+extends ./layouts/default
+
+block title
+  title Koa Douban 首页
+
+block content
+  .container
+      .row
+        .col-md-8
+          h1 hello #{you}
+          p my name is #{me}
+        .col-md-4
+          p 使用koa-views中间件里的pug模板引擎
